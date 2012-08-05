@@ -1,0 +1,19 @@
+name: Plugin1
+main: com.github.derbard.plugin1.Plugin1
+version: 0.1
+commands:
+  nimbus:
+    description: Grants the player the power of the nimbus cloud.
+    usage: /<command>
+    permission: Plugin1.nimbus
+    permission-message: You don't have <permission>.
+  change:
+    description: Transmutes the chunk in which a player is standing.
+    usage: /<command> [material]
+    permission: Plugin1.change
+    permission-message: You don't have <permission>.
+  midas:
+    description: Grants Midas' touch.
+    usage: /<command>
+    permission: Plugin.midas
+    permission-message: You don't have <permission>.
